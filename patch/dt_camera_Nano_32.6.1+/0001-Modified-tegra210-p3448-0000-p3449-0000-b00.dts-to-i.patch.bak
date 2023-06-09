@@ -22,7 +22,7 @@ index 217c07b..4ea2e02 100644
 -#include "porg-platforms/tegra210-porg-camera-rbpcv3-dual-imx477.dtsi"
 -#include "porg-platforms/tegra210-porg-camera-rbpcv2-dual-imx219.dtsi"
 +#if VC_MIPI
-+	#include "porg-platforms/tegra210-porg-camera-rbpcv2-dione-ir.dtsi"
++	#include "porg-platforms/tegra210-camera-vc-mipi-cam.dtsi"
 +#else
 +	#include "porg-platforms/tegra210-porg-camera-rbpcv3-dual-imx477.dtsi"
 +	#include "porg-platforms/tegra210-porg-camera-rbpcv2-dual-imx219.dtsi"

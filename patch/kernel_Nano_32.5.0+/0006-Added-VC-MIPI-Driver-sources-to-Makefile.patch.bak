@@ -16,7 +16,7 @@ index c6d34e807..579d3f633 100644
  obj-$(CONFIG_VIDEO_LC898212) += lc898212.o
  obj-$(CONFIG_VIDEO_OV5693) += ov5693.o
  obj-$(CONFIG_VIDEO_OV9281) += ov9281.o
-+obj-$(CONFIG_VIDEO_OV9281) += dione_ir.o
++obj-$(CONFIG_VIDEO_OV9281) += vc_mipi_camera.o vc_mipi_core.o vc_mipi_modules.o
  obj-$(CONFIG_VIDEO_OV10823) += ov10823.o
  obj-$(CONFIG_VIDEO_OV23850) += ov23850.o
  obj-$(CONFIG_I2C_IOEXPANDER_PCA9570) += pca9570.o

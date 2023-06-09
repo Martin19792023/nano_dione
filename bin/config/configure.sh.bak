@@ -63,7 +63,6 @@ case $VC_MIPI_SOM in
         case $VC_MIPI_BOARD in
                 NV_DevKit_Nano)
                 DT_CAM_FILE=$DT_CAM_DIR/NV_DevKit_Nano/tegra210-porg-camera-rbpcv2-dione-ir.dtsi
-				DT_CAM_DIR=$DT_CAM_DIR/NV_DevKit_Nano
                 ;;
                 *)
                 echo "Carrier board $VC_MIPI_BOARD not supported!"
